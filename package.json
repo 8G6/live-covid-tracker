@@ -1,0 +1,24 @@
+{
+  "name": "live-covid-tracker",
+  "version": "1.0.0",
+  "description": "A live covid tracker that fetches data from a website and updates the values to local server",
+  "main": "app.js",
+  "dependencies": {
+    "express-ejs-layouts":"^2.5.0",
+    "express":"^4.17.1",
+    "puppeteer-core": "^10.1.0"
+  },
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8G6/live-covid-tracker.git"
+  },
+  "author": "Ryu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/8G6/live-covid-tracker/issues"
+  },
+  "homepage": "https://github.com/8G6/live-covid-tracker#readme"
+}
